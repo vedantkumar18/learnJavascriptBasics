@@ -207,3 +207,61 @@ do {
 } while (i <= 5); */
 
 // lesson - 3 done till 26:40 
+
+// for of loop, it helps to put loop on strings and arrays.
+
+/*
+let str = `apna college`;
+let size = 0;
+
+for(let i of str) {
+ console.log(i);
+ size++;   
+}
+console.log(size);
+*/
+
+// for-in loop
+
+/* let student = {
+    name:`rahul`,
+    age: 20,
+    cgpa: 7.5,
+    isPass: true,
+};
+
+for(let key in student){
+    console.log(key, student[key]);
+} */
+
+//prac questions
+// q1
+
+/* for(let num = 0; num <= 100; num++) {
+    if(num % 2 === 0) {
+        console.log(num);
+    }
+}; */
+
+// q2
+
+/* let num = prompt(`please guess a number between 1-100`);
+console.log(num);
+let correctNum = 83;
+if(num == correctNum){
+     console.log(`you were correct! the number was`, num);
+} else {
+    console.log(`oops, that was wrong. please try again`);
+} */
+
+/* let num = prompt(`please guess a number between 1-100`);
+console.log(num);
+let correctNum = 83;
+while( num != correctNum){
+    console.log(`opps wrong number`);
+    num = prompt(`guess again:`);
+}
+console.log(`correct`);
+*/
+
+// lesson 3 till 44 mins done, start from string tomorrow.
