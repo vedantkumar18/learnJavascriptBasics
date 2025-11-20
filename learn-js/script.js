@@ -265,3 +265,14 @@ console.log(`correct`);
 */
 
 // lesson 3 till 44 mins done, start from string tomorrow.
+
+// strings
+
+/* let str = `Anakin Skywalker`;
+console.log(str.length);
+console.log(str[0]);
+console.log(str[15]);
+
+*/
+
+// done till 48:57 will start from template literals tomorrow.
